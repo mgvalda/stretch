@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Stretch Activewear</title>
+</head>
+<body>
+    <header>
+        <h1>STRETCH <span>ACTIVEWEAR</span></h1>
+        <nav id="headerNav">
+            <ul>
+                <li id="modal" class="contact">CONTACT</li>
+                <li>BUY NOW</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+
+        <!--A pop up modal upon contact button click-->
+
+        <div class="modal hide">
+            <div class="box">
+                <div class="boxContent">
+                    <img src="images/logo.png" alt="Stretch Logo">
+                    <button class="boxBtn">X</button>
+                </div>
+                <section id="contact">
+                    <h2>CONTACT US</h2>
+                    <p> We are currently working on our website
+                        and therefore will redirect you to our eBay page
+                        to contact us. 
+                    </p>
+                    <a href="https://www.ebay.co.uk/contact/sendmsg?item_id=203498965004&recipient=manorchef&message_type_id=29" target="_blank">YES PLEASE</a>
+                    <!-- <form id="contactForm" action="">
+                        <label for="name"></label>
+                        <input class="input" id="name" type="text" required placeholder="Name">
+                        <label for="email"></label>
+                        <input class="input" id="email" type="email" required placeholder="Email">
+                        <label for="message"></label>
+                        <textarea class="input" name="message" required id="message" placeholder="Message" cols="20" rows="10"></textarea>
+                        <button class="submit input">SUBMIT</button>
+                    </form> -->
+                </section>    
+
+            </div>
+        </div>
+        <div class="container">
+            <section class="slides" id="slider">
+                <article>
+                    <img src="images/running-vest_front.png" alt="running vest front view">
+                    <h2>UNISEX RUNNING VEST</h2>
+                    <p>A one-size sleeveless construction that is lightweight and adjustable   
+                    ensuring maximum speed and unrestricted performance.
+                    
+                    Featuring a stretch material including reflective accents
+                    and adjustable band ranging approximately between 68cm - 115cm.
+                    An ideal unisex running vest. 
+                    </p>
+                </article>
+                <article>
+                    <img src="images/running-vest_breathable.png" alt="running vest with breathable mesh fabric">
+                    <h2>BREATHABLE</h2>
+                     <p>Breathable fabric allows heat build up and moisture to escape.
+                    This design allows for more air to circulate around the body,
+                    helping to regulate body temperature and prevent overheating. 
+                    Ideal for comfortable layering.</p>
+                </article>
+                <article>
+                    <img src="images/running-vest_phone-holder.png" alt="running vest with front phone holder pocket">
+                    <h2>PHONE HOLDER</h2>
+                <p>A central front phone holder to fit all models.
+                    Can be opened up and used through the transparent
+                    pocket for easy use on the go. An additional compartment
+                    within the pocket can store bank cards or additional flat items. </p>
+                </article>
+                <article>
+                    <img src="images/running-vest_accessory-pockets.png" alt="running vest with accessory pouches">
+                    <h2>ACCESSORY POCKETS</h2>
+                    <p> Compartments located at the shoulder can hold items securely 
+                            whilst running. A zipped pocket, ideal for holding a door key,
+                            an additional velcro pouch to store another item such as an energy
+                            gel... perfect for the longer run. </p>
+                </article>
+            </section>
+            <div class="btnContain">
+            <button id="prev">&#60;</button>
+            <button id="next">&#62;</button>
+        </div>
+        </div>
+      
+    </main> 
+    <footer>
+        <nav id="footerNav">
+            <button class="footerBtn" id="contactBtn">CONTACT</button>
+            <a class="footerBtn" href="https://www.ebay.co.uk/itm/203498965004?hash=item2f617bc80c:g:7sgAAOSwPNlg9lBP" target="_blank">BUY NOW</a></button>
+            <!-- <ul>
+                <li id="contactBtn">CONTACT</li>
+                <li><a href="https://www.ebay.co.uk/itm/203498965004?hash=item2f617bc80c:g:7sgAAOSwPNlg9lBP" target="_blank">BUY NOW</a></li>
+            </ul> -->
+        </nav>
+        <!-- <p class="copyright">© 2023 STRETCH ACTIVEWEAR UK </p> -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
